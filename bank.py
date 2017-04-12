@@ -1,3 +1,4 @@
+print("hai")
 print('Welcome to TS ATM')
 restart=('Y')
 chances = 3
