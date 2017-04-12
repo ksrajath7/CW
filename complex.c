@@ -121,9 +121,5 @@ int main()
 
 
 
-
-
-
-
 //simply
 
