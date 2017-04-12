@@ -3,7 +3,7 @@ restart=('Y')
 chances = 3
 balance = 67.14
 while chances >= 0:
-    pin = int(input('Please Enter You 5 Digit Pin: '))
+    pin = int(input('Please Enter Your 5 Digit Pin: '))
     if pin == (12345):
         print('You entered you pin Correctly\n')
         while restart not in ('n','NO','no','N'):
