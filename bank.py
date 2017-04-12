@@ -1,4 +1,4 @@
-print('Welcome to Noobers awesome ATM')
+print('Welcome to TS ATM')
 restart=('Y')
 chances = 3
 balance = 67.14
