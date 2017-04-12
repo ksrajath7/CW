@@ -113,7 +113,7 @@ int main()
       }
     }
     else
-      printf("Invalid choice.");
+      printf("enter a valid choice");
  
     printf("\nPress any key to enter choice again...\n");
   }
