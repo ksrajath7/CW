@@ -1,15 +1,12 @@
-print("hai vs")
-print('Welcome to TS ATM')
+print "hihhihihi"
+print('Welcome to Noobers awesome ATM')
 restart=('Y')
 chances = 3
 balance = 67.14
 while chances >= 0:
-    pin = int(input('Please Enter Your 5 Digit Pin: '))
+    pin = int(input('Please Enter You 5 Digit Pin: '))
     if pin == (12345):
         print('You entered you pin Correctly\n')
-        
-        
-        
         while restart not in ('n','NO','no','N'):
             print('Please Press 1 For Your Balance\n')
             print('Please Press 2 To Make a Withdrawl\n')
@@ -50,6 +47,7 @@ while chances >= 0:
                 print('Please wait whilst your card is Returned...\n')
                 print('Thank you for you service')
                 break
+                
             else:
                 print('Please Enter a correct number. \n')
                 restart = ('y')
@@ -59,11 +57,6 @@ while chances >= 0:
         if chances == 0:
             print('\nNo more tries')
             break
-            
-            
-            
 
-            
-            
             
             
