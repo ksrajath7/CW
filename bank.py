@@ -17,7 +17,9 @@ while chances >= 0:
             print('Please Press 4 To Return Card\n')
             option = int(input('What Would you like to choose?'))
             if option == 1:
-                print('Your Balance is %f',balance,'\n')
+               
+            
+            print('Your Balance is %f',balance,'\n')
                 restart = input('Would You you like to go back? ')
                 if restart in ('n','NO','no','N'):
                     print('Thank You')
