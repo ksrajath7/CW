@@ -28,7 +28,7 @@ while chances >= 0:
                 option2 = ('y')
                 withdrawl = float(input('How Much Would you like to withdraw? \n%f10/%f20/%f40/%f60/%f80/%f100 for other enter 1: '))
                 if withdrawl in [10, 20, 40, 60, 80, 100]:
-                    balance = balance - withdrawl
+                    balance = balance - withdrawl #updation of balance
                     print ('\nYour Balance is now %f',balance)
                     restart = input('Would You you like to go back? ')
                     if restart in ('n','NO','no','N'):
@@ -42,7 +42,7 @@ while chances >= 0:
  
             elif option == 3:
                 Pay_in = float(input('How Much Would You Like To Pay In? '))
-                balance = balance + Pay_in
+                balance = balance + Pay_in#updation of balance
                 print ('\nYour Balance is now %f',balance)
                 restart = input('Would You you like to go back? ')
                 if restart in ('n','NO','no','N'):
