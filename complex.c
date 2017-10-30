@@ -17,7 +17,7 @@ int main()
   struct complex a, b, c;
  
   while(1)
-  {
+  {//Showning menu 
     printf("Press 1 to add two complex numbers.\n");
     printf("Press 2 to subtract two complex numbers.\n");
     printf("Press 3 to multiply two complex numbers.\n");
@@ -113,7 +113,7 @@ int main()
       }
     }
     else
-      printf("enter a valid choice");
+      printf("enter a valid choice"); 
  
     printf("\nPress any key to enter choice again...\n");
   }
