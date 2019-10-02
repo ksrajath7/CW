@@ -1,6 +1,6 @@
 
 
-/*Added annd updated by Rakshith */
+
 
 
 #include <stdio.h>
@@ -64,66 +64,4 @@ int main()
     }
     else if ( choice == 3 )
     {
-      c.real = a.real*b.real - a.img*b.img;
-      c.img = a.img*b.real + a.real*b.img;
- 
-      if ( c.img >= 0 )
-        printf("Multiplication of two complex numbers = %d + %di",c.real,c.img);
-      else
-        printf("Multiplication of two complex numbers = %d %di",c.real,c.img);
-    }
-    else if ( choice == 4 )
-    {
-      if ( b.real == 0 && b.img == 0 )
-        printf("Division by 0 + 0i is not allowed.");
-      else
-      {
-        temp1 = a.real*b.real + a.img*b.img;
-        temp2 = a.img*b.real - a.real*b.img;
-        temp3 = b.real*b.real + b.img*b.img;
- 
-        if ( temp1%temp3 == 0 && temp2%temp3 == 0 )
-        {
-          if ( temp2/temp3 >= 0)
-            printf("Division of two complex numbers = %d + %di",temp1/temp3,temp2/temp3);
-          else
-            printf("Division of two complex numbers = %d %di",temp1/temp3,temp2/temp3);
-        }
-        else if ( temp1%temp3 == 0 && temp2%temp3 != 0 )
-        {
-          if ( temp2/temp3 >= 0)
-            printf("Division of two complex numbers = %d + %d/%di",temp1/temp3,temp2,temp3);
-          else
-            printf("Division of two complex numbers = %d %d/%di",temp1/temp3,temp2,temp3);
-        }
-        else if ( temp1%temp3 != 0 && temp2%temp3 == 0 )
-        {
-          if ( temp2/temp3 >= 0)
-            printf("Division of two complex numbers = %d/%d + %di",temp1,temp3,temp2/temp3);
-          else
-            printf("Division of two complex numbers = %d %d/%di",temp1,temp3,temp2/temp3);
-        }
-        else
-        {
-          if ( temp2/temp3 >= 0)
-            printf("Division of two complex numbers = %d/%d + %d/%di",temp1,temp3,temp2,temp3);
-          else
-            printf("Division of two complex numbers = %d/%d %d/%di",temp1,temp3,temp2,temp3);
-        }
-      }
-    }
-    else
-      printf("enter a valid choice");
- 
-    printf("\nPress any key to enter choice again...\n");
-  }
-}
-
-
-
-
-
-
-
-//simply
-
+      c.real = a.real*b.real - a.img
