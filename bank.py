@@ -56,7 +56,7 @@ while chances >= 0:
                 print('Please Enter a correct number. \n')
                 restart = ('y')
     elif pin != ('1234'):
-        print('Incorrect Password')
+        print(' Incorrect Password ')
         chances = chances - 1
         if chances == 0:
             print('\nNo more tries')
